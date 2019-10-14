@@ -20,7 +20,7 @@ if dataset == "MAILABS":
   mag_num_feats = 401
   train = "train.csv"
   val = "val.csv"
-  batch_size = 32
+  batch_size = 1
 elif dataset == "LJ":
   trim = False
   mag_num_feats = 513
